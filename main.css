@@ -8,6 +8,7 @@ div {
   width: 100vw;
 }
 
+
 h1, h2, h3, p {
   text-align: center;
 }
@@ -57,13 +58,6 @@ p 4, p 5 {
       right: 10px; /*your button position*/
   }
 
-ol {
-  list-style: none;
-  padding: 0;
-  font-size: 3em;
-  display: flex;
-  justify-content: space-evenly;
-}
 
 .container {
   position: relative;
@@ -142,6 +136,7 @@ div class="ending" {
 body {
 	background: #263238;
 }
+
 
 h3 {
 	text-align: center;
@@ -251,4 +246,16 @@ input[type=submit]:hover {
 
 .active {
   background-color: #4CAF50; /* Add an active/current color */
+}
+
+.button {
+    align-content: center;
+}
+
+.btn-center {
+  margin: 0px auto;
+}
+
+.btn-group {
+  display: flex;
 }
